@@ -1,0 +1,43 @@
+.community-section {
+  padding: 80px 0;
+}
+
+.community-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.community-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.icon-bg {
+  background-color: var(--bg-light) !important;
+}
+
+@media (max-width: 991.98px) {
+  .community-section {
+    padding: 60px 0;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .community-card {
+    margin-bottom: 1.5rem;
+  }
+} 

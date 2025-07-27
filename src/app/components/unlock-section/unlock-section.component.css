@@ -1,0 +1,146 @@
+.unlock-section {
+  padding: 80px 0;
+}
+
+.unlock-illustration {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-device {
+  width: 200px;
+  height: 350px;
+  background: #333;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.device-screen {
+  width: 180px;
+  height: 320px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.form-header h3 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-fields {
+  margin-bottom: 20px;
+}
+
+.field-row {
+  height: 8px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.form-button .btn {
+  font-size: 0.875rem;
+  padding: 8px 16px;
+}
+
+.character-illustration {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.character-body {
+  width: 50px;
+  height: 70px;
+  background: #4CAF4F;
+  border-radius: 25px 25px 0 0;
+}
+
+.character-head {
+  width: 35px;
+  height: 35px;
+  background: #4CAF4F;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -17px;
+}
+
+.unlock-content {
+  max-width: 500px;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  line-height: 1.3;
+}
+
+.section-text {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 991.98px) {
+  .unlock-section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 1.875rem;
+  }
+  
+  .unlock-illustration {
+    height: 300px;
+    margin-bottom: 2rem;
+  }
+  
+  .mobile-device {
+    width: 150px;
+    height: 250px;
+  }
+  
+  .device-screen {
+    width: 130px;
+    height: 220px;
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .unlock-illustration {
+    height: 250px;
+  }
+  
+  .mobile-device {
+    width: 120px;
+    height: 200px;
+  }
+  
+  .device-screen {
+    width: 100px;
+    height: 170px;
+    margin: 10px;
+    padding: 10px;
+  }
+} 

@@ -1,0 +1,84 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #4D4D4D;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Custom colors */
+:root {
+  --primary-color: #4CAF4F;
+  --text-dark: #4D4D4D;
+  --text-light: #717171;
+  --text-lighter: #89939E;
+  --bg-light: #F5F7FA;
+  --white: #FFFFFF;
+  --black: #263238;
+  --text-gray: #18191F;
+  --text-gray-light: #D9DBE1;
+}
+
+/* Utility classes */
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+
+.bg-light-custom {
+  background-color: var(--bg-light) !important;
+}
+
+.text-dark-custom {
+  color: var(--text-dark) !important;
+}
+
+.text-light-custom {
+  color: var(--text-light) !important;
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--white) !important;
+}
+
+.btn-primary-custom:hover {
+  background-color: #388E3B !important;
+  border-color: #388E3B !important;
+}
+
+.btn-outline-primary-custom {
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-primary-custom:hover {
+  background-color: var(--primary-color) !important;
+  color: var(--white) !important;
+}
+
+/* Responsive utilities */
+@media (max-width: 991.98px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+} 

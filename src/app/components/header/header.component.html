@@ -1,0 +1,50 @@
+<header class="header bg-light-custom py-3">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- Logo -->
+      <div class="navbar-brand d-flex align-items-center">
+        <div class="logo-icon me-2">
+          <svg width="35" height="24" viewBox="0 0 35 24" fill="none">
+            <path d="M6.5 12.3L18.7 0H35v24H0V0h17.5L6.5 12.3z" fill="#4CAF4F"/>
+          </svg>
+        </div>
+        <span class="logo-text fw-semibold text-dark-custom">Nexcent</span>
+      </div>
+
+      <!-- Mobile menu button -->
+      <button class="navbar-toggler" type="button" (click)="toggleMenu()" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation menu -->
+      <div class="collapse navbar-collapse" [class.show]="isMenuOpen" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link fw-medium text-dark-custom" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-custom" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-custom" href="#feature">Feature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-custom" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-custom" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark-custom" href="#faq">FAQ</a>
+          </li>
+        </ul>
+
+        <!-- Auth buttons -->
+        <div class="d-flex gap-2">
+          <button class="btn btn-outline-primary-custom btn-sm px-3 py-2">Login</button>
+          <button class="btn btn-primary-custom btn-sm px-3 py-2">Sign up</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header> 
